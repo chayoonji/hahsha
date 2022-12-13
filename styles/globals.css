@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button {
+  @apply bg-slate-500 text-white px-4 py-2 rounded-3xl mr-2 shadow outline-none hover:bg-slate-500  active:bg-slate-500;
+}
+.default-button {
+  @apply rounded bg-gray-100 py-2  px-4 text-black shadow outline-none hover:bg-gray-200  active:bg-gray-300;
+}
+
+input,
+select,
+textarea {
+  @apply rounded border p-2 outline-none ring-indigo-300 focus:ring bg-slate-100;
+}
+
+input,
+select,
+textarea {
+  @apply rounded border p-2 outline-none ring-indigo-300 focus:ring bg-slate-100;
+}
